@@ -1,15 +1,10 @@
-/*Генератор случайного 10ти значного числа(применимо, например, к генерации номера заказа)*/
+
 function generateRandom10Digit() {
-    const min = 1000000000;   // наименьшее 10‑значное число
-    const max = 9999999999;   // наибольшее 10‑значное число
+    const min = 1000000000;   
+    const max = 9999999999;   
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-/*Отправляет POST-запрос и проверяет статус
-@param {Object} payload - тело запроса
-@param {String} testName - название теста для лога
-@param {Array} expectedStatuses - ожидаемые коды ответа (по умолчанию [400])
-@returns {Promise} - ответ сервера*/
 async function sendAndCheck(payload, testName, expectedStatuses = [400]) {
     try {
         const response = await pm.sendRequest({
@@ -26,7 +21,7 @@ async function sendAndCheck(payload, testName, expectedStatuses = [400]) {
         pm.expect(response.code).to.be.oneOf(expectedStatuses);
         console.log(`✅ ${testName} → код: ${response.code}`);
 
-        /*Вывод тела ответа при ошибке*/
+        
         if (!expectedStatuses.includes(response.code) && response.json) {
             console.log("→ Ответ сервера:", response.json());
         }
@@ -38,7 +33,7 @@ async function sendAndCheck(payload, testName, expectedStatuses = [400]) {
     }
 }
 
-/*Проверка полей ответа. 400*/
+
 function validateErrorResponse(responseBody, expectedErrorCode, expectedErrorMessage, expectedTypeError) {
     pm.expect(responseBody.error_code).to.equal(expectedErrorCode);
     pm.expect(responseBody.error_message).to.equal(expectedErrorMessage);
@@ -46,13 +41,13 @@ function validateErrorResponse(responseBody, expectedErrorCode, expectedErrorMes
     pm.expect(responseBody.errors).to.be.an('object');
 }
 
-/*Валидации ошибки*/
+
 function validateFieldErrors(fieldErrors, expectedMessage) {
     pm.expect(fieldErrors).to.be.an('array').that.is.not.empty;
     fieldErrors.forEach(msg => pm.expect(msg).to.equal(expectedMessage));
 }
 
-/*Парсинг JSON-ответа*/
+
 async function parseResponseJson(response) {
     try {
         return response.json();
