@@ -65,7 +65,7 @@
 							"const DEFAULT_PAYLOAD = {",
 							"    // Обязательные поля",
 							"    amount: 2,",
-							"    invoice_id: RANDOM,",
+							"    invoice_id: random10Digit,",
 							"    mobile: false,",
 							"    platform: \"WEB\",",
 							"    ",
