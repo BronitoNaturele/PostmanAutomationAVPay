@@ -3119,7 +3119,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{PaymentTestBearerToken}}",
+							"value": "\"PaymentTestBearerToken\"",
 							"type": "string"
 						}
 					]
@@ -3142,9 +3142,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{AutomationPayStandRun}}/api/v1/payment/pay/:method_uuid",
+					"raw": "\"AutomationPayStandRun\"/api/v1/payment/pay/:method_uuid",
 					"host": [
-						"{{AutomationPayStandRun}}"
+						"\"AutomationPayStandRun\""
 					],
 					"path": [
 						"api",
@@ -3156,7 +3156,7 @@
 					"variable": [
 						{
 							"key": "method_uuid",
-							"value": "{{PaymentMethodUuidSberGate}}"
+							"value": "\"PaymentMethodUuidSberGate\""
 						}
 					]
 				}
