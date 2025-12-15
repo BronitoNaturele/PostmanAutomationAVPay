@@ -5,10 +5,6 @@ function generateRandom10Digit() {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-module.exports = {
-    generateRandom10Digit 
-};
-
 // Отправляет POST-запрос и проверяет статус
 // @param {Object} payload - тело запроса
 // @param {String} testName - название теста для лога
@@ -42,11 +38,7 @@ async function sendAndCheck(payload, testName, expectedStatuses = [400]) {
     }
 }
 
-module.exports = {
-    sendAndCheck
-};
-
-//Проверка полей ответа. 400
+// Проверка полей ответа. 400
 function validateErrorResponse(responseBody, expectedErrorCode, expectedErrorMessage, expectedTypeError) {
     pm.expect(responseBody.error_code).to.equal(expectedErrorCode);
     pm.expect(responseBody.error_message).to.equal(expectedErrorMessage);
@@ -54,21 +46,13 @@ function validateErrorResponse(responseBody, expectedErrorCode, expectedErrorMes
     pm.expect(responseBody.errors).to.be.an('object');
 }
 
-module.exports = {
-    validateErrorResponse
-};
-
-//Валидации ошибки
+// Валидации ошибки
 function validateFieldErrors(fieldErrors, expectedMessage) {
     pm.expect(fieldErrors).to.be.an('array').that.is.not.empty;
     fieldErrors.forEach(msg => pm.expect(msg).to.equal(expectedMessage));
 }
 
-module.exports = {
-    validateFieldErrors
-};
-
-//Функция парсинга ответа
+// Функция парсинга ответа
 async function parseResponseJson(response) {
     try {
         return response.json();
@@ -80,5 +64,8 @@ async function parseResponseJson(response) {
 }
 
 module.exports = {
+    generateRandom10Digit,
+    sendAndCheck,
+    validateErrorResponse,
     parseResponseJson
 };
