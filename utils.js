@@ -13,12 +13,12 @@ function generateRandom10Digit() {
 async function sendAndCheck(payload, testName, expectedStatuses = [400]) {
     try {
         const response = await pm.sendRequest({
-            url: BASE_URL + ENDPOINT,
+            url: config.BASE_URL + config.ENDPOINT,
             method: "POST",
             header: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "Authorization": `Bearer ${AUTH_TOKEN}`
+                "Authorization": `Bearer ${config.AUTH_TOKEN}`
             },
             body: JSON.stringify(payload)
         });
@@ -52,7 +52,7 @@ function validateFieldErrors(fieldErrors, expectedMessage) {
     fieldErrors.forEach(msg => pm.expect(msg).to.equal(expectedMessage));
 }
 
-// Функция парсинга ответа
+// Парсинг JSON-ответа
 async function parseResponseJson(response) {
     try {
         return response.json();
@@ -67,5 +67,6 @@ module.exports = {
     generateRandom10Digit,
     sendAndCheck,
     validateErrorResponse,
+    validateFieldErrors,
     parseResponseJson
 };
