@@ -1,0 +1,471 @@
+{
+	"id": "839a7192-a293-4066-8537-05baaf37c9df",
+	"values": [
+		{
+			"key": "AdminPanelPayjournalsAccountId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayjournalsDateFrom",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayjournalsDateTo",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayMethodsPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayMethodsWhite",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayModulesPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayPayersPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProfilePassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProfileNewPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayApplicationsPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayApplicationProjectId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayApplicationAppId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayTokenProjectTestAvRu",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayKeysProjectId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayKeysAppId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayKeysKeyId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayKeysPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsSuccessUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsErrorUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsCallbackUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsUserID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsProjectid",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayProjectsModuleId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayConfigProjectId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayConfigModuleId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayConfigPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayConfigTransactionId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayTransactionsProjectId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayTransactionsTransactionId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayTransactionsPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayRolesRoleId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayRolesPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayRolesNameRole",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayRolesDescription",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentMethodUuidSberGate",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentMethodUuidSberPay",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentMethodUuidSavedMethod",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentSurchargeTransactionId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentMethodUuidSBP",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayInvitesInviteId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayInvitesEmail",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayUsersUserId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayUsersPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayPaymentId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayPaymentAccountId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "StandRun",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "random10Digit",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentTokenUuidSavedMethods",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayPaymentAmount",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebTokenForAuth",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "BearerTokenPayWebPayer",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "EAAuthorizeUserInfoVkusomaniaV2SiebelId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayPaymentDDPBearerToken",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebTransactionUrlUuid",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebMethodUuid",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebMethodUuidSberGate",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebMethodUuidSber",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebMethodUuidSBP",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebMethodUuidDDP",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebTransactionUuid",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayWebXSRF-TOKEN",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PayStandForTest",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsStandUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentTestBearerToken",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AutomationPayStandRun",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalStatusOrder",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalShopId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalAgentId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalEpcPayment",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalSourceSystem",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalCancelReason",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalShipmentDate",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalOrderId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OmsInternalAuthorizationToken",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AdminPanelPayMethodsMethodId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "EaStand",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-12-15T11:04:52.051Z",
+	"_postman_exported_using": "Postman/11.75.6"
+}
