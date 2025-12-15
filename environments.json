@@ -19,5 +19,6 @@
 			"enabled": true
 		}			
 	],
-	"name": "Globals"	
+	"name": "Globals",
+	"_postman_variable_scope": "globals"	
 }
