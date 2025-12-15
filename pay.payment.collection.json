@@ -7,21 +7,15 @@
 	},
 	"item": [
 		{
-			"name": "400. /api/v1/payment/pay/:method_uuid. Картой СГ. Copy",
+			"name": "400. /api/v1/payment/pay/:method_uuid. Картой СГ.",
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"function generateRandom10Digit() {\r",
-							"    const min = 1000000000;   // наименьшее 10‑значное число\r",
-							"    const max = 9999999999;   // наибольшее 10‑значное число\r",
-							"    return Math.floor(Math.random() * (max - min + 1)) + min;\r",
-							"}\r",
-							"\r",
-							"\r",
+							"const { generateRandom10Digit } = require('./utils.js');\r",
 							"const randomNumber = generateRandom10Digit();\r",
-							"pm.variables.set('random10Digit', randomNumber);"
+							"pm.variables.set('random10Digit', randomNumber);\r"
 						],
 						"type": "text/javascript",
 						"packages": {},
@@ -33,6 +27,13 @@
 					"script": {
 						"exec": [
 							"// === КОНФИГУРАЦИЯ ===",
+							"// Подключаем утилиту",
+							"const { generateRandom10Digit } = require('./utils.js');",
+							"// Используем функцию и устанавливаем переменную",
+							"const randomNumber = generateRandom10Digit();",
+							"pm.variables.set('random10Digit', randomNumber);",
+							"// Можно сразу проверить",
+							"console.log('Сгенерировано:', randomNumber);",
 							"const BASE_URL = pm.globals.get(\"AutomationPayStandRun\");",
 							"const METHOD_UUID = pm.globals.get(\"PaymentMethodUuidSberGate\");",
 							"const AUTH_TOKEN = pm.globals.get(\"PaymentTestBearerToken\");",

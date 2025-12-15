@@ -1,0 +1,23 @@
+{
+	"values": [
+		{
+			"key": "PaymentTestBearerToken",
+			"value": "e26ABDDy9HTV0gFoX1uCwdld9uSSjEYlrV7v0qrs2OfZOONm223XLMLK9GyPDMJFpmMIQLSPkG9XfCzT",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "AutomationPayStandRun",
+			"value": "https://test-pay.av.ru",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PaymentMethodUuidSberGate",
+			"value": "d96d0e7f-771a-4c85-9f13-5eda4bca9251",
+			"type": "default",
+			"enabled": true
+		}			
+	],
+	"name": "Globals"	
+}
