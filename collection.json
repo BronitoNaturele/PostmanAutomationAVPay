@@ -13,7 +13,7 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"const { generateRandom10Digit } = require('./utils.js');",
+							"const { generateRandom10Digit } = require('C:/Users/aad/Repository/PostmanAutomationAVPay/utils.js');",
 							"const randomNumber = generateRandom10Digit();",
 							"pm.globals.set('random10Digit', randomNumber);"
 						],
