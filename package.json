@@ -5,5 +5,5 @@
   },
   "scripts": {
     "test": "newman run collection3.json -e environments.json"
-}
+  }
 }
