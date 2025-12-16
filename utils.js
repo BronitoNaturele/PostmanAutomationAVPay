@@ -27,7 +27,7 @@ async function sendAndCheck(config, payload, testName, expectedStatuses = [400])
             }
         );
 
-        // Замена pm.expect на обычные проверки
+        /*Замена pm.expect на обычные проверки*/
         if (!expectedStatuses.includes(response.status)) {
             throw new Error(`Статус ${response.status} не входит в ожидаемые [${expectedStatuses}]`);
         }
