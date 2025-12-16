@@ -3134,7 +3134,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"amount\": 2,\r\n  \"invoice_id\": \"{{random10Digit}}\",\r\n  \"mobile\": false,\r\n  \"platform\": \"WEB\",\r\n  \"account_id\": \"{{PayPaymentAccountId}}\",  \r\n//   \"secure_pay\": \"<string>\",\r\n  \"name\": \"DeadCow\",\r\n  \"payload\": [    \r\n    {\r\n      \"key\": \"testKey\",\r\n      \"value\": \"testValue\"\r\n    }\r\n  ],\r\n  \"phone\": \"79138166920\",\r\n  \"email\": \"klepa_e@mail.ru\",\r\n  \"description\": \"TestDeadCow\",\r\n  \"fields\": {\r\n    \"successUrl\": \"https://uat-pay.av.ru/success/123456\",\r\n    \"errorUrl\": \"https://uat-pay.av.ru//error/123456\",\r\n    \"ttl\": 3600\r\n  }  \r\n}\r\n",
+					"raw": "{\r\n  \"amount\": 2,\r\n  \"invoice_id\": \"random10Digit\",\r\n  \"mobile\": false,\r\n  \"platform\": \"WEB\",\r\n  \"account_id\": \"PayPaymentAccountId\",  \r\n//   \"secure_pay\": \"<string>\",\r\n  \"name\": \"DeadCow\",\r\n  \"payload\": [    \r\n    {\r\n      \"key\": \"testKey\",\r\n      \"value\": \"testValue\"\r\n    }\r\n  ],\r\n  \"phone\": \"79138166920\",\r\n  \"email\": \"klepa_e@mail.ru\",\r\n  \"description\": \"TestDeadCow\",\r\n  \"fields\": {\r\n    \"successUrl\": \"https://uat-pay.av.ru/success/123456\",\r\n    \"errorUrl\": \"https://uat-pay.av.ru//error/123456\",\r\n    \"ttl\": 3600\r\n  }  \r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
