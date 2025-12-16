@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "axios": "^1.13.2",
+    "express": "^5.2.1",
     "functions.js": "^1.4.1"
   },
   "scripts": {
