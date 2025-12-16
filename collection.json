@@ -15,7 +15,15 @@
 						"exec": [
 							"const { generateRandom10Digit } = require('C:/Users/aad/Repository/PostmanAutomationAVPay/utils.js');",
 							"const randomNumber = generateRandom10Digit();",
-							"pm.globals.set('random10Digit', randomNumber);"
+							"pm.globals.set('random10Digit', randomNumber);",
+							"console.log('Current working directory:', process.cwd());",
+							"console.log('Attempting to load:', 'C:/Users/aad/Repository/PostmanAutomationAVPay/utils.js');",
+								"try {",
+    								"const { generateRandom10Digit } = require('C:/Users/aad/Repository/PostmanAutomationAVPay/utils.js');",
+    								"console.log('Module loaded successfully!');",
+								"} catch (err) {",
+    								"console.error('Error loading module:', err.message);",
+								"}"
 						],
 						"type": "text/javascript",
 						"packages": {},
