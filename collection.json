@@ -27,10 +27,10 @@
 					"script": {
 						"exec": [
 							"// === КОНФИГУРАЦИЯ ===",							
-							"const BASE_URL = pm.globals.get(\"AutomationPayStandRun\");",
-							"const METHOD_UUID = pm.globals.get(\"PaymentMethodUuidSberGate\");",
-							"const AUTH_TOKEN = pm.globals.get(\"PaymentTestBearerToken\");",
-							"const ACCOUNT_ID = pm.globals.get(\"PayPaymentAccountId\");",
+							"const BASE_URL = pm.globals.get(AutomationPayStandRun);",
+							"const METHOD_UUID = pm.globals.get(PaymentMethodUuidSberGate);",
+							"const AUTH_TOKEN = pm.globals.get(PaymentTestBearerToken);",
+							"const ACCOUNT_ID = pm.globals.get(PayPaymentAccountId);",
 							"",
 							"// Проверяем обязательные переменные окружения",
 							"if (!BASE_URL) {",
