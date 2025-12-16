@@ -7,23 +7,9 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"const { generateRandom10Digit } = require('./utils.js');",
+							"const { generateRandom10Digit } = require('C:/Users/aad/Repository/PostmanAutomationAVPay/utils.js');",
 							"const randomNumber = generateRandom10Digit();",
-							"pm.globals.set('random10Digit', randomNumber);",
-							"console.log('Текущая директория:', process.cwd());",
-							"console.log('Содержимое:', require('fs').readdirSync('.'));",
-							"",
-							"try {",
-  								"const path = require('path');",
-  								"console.log('Полный путь к utils.js:', path.resolve('./utils.js'));",
-								"",
-  								"const utils = require('./utils.js');",
-  								"console.log('Модуль загружен:', utils);",
-								"",
-							"} catch (err) {",
-  								"console.error('Ошибка:', err.message);",
- 								"console.error('Стек:', err.stack);",
-							"}"
+							"pm.globals.set('random10Digit', randomNumber);"							
 						],
 						"type": "text/javascript",
 						"packages": {},
