@@ -4,6 +4,6 @@
     "functions.js": "^1.4.1"
   },
   "scripts": {
-    "test": "newman run C:/Users/aad/Repository/PostmanAutomationAVPay/PaymetnApiPostRequestValidations collection3.json -e environments.json"
+    "test": "newman run collection3.json -e environments.json"
   }
 }
