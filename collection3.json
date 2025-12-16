@@ -7,15 +7,9 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"function generateRandom10Digit() {\r",
-							"    const min = 1000000000;   // наименьшее 10‑значное число\r",
-							"    const max = 9999999999;   // наибольшее 10‑значное число\r",
-							"    return Math.floor(Math.random() * (max - min + 1)) + min;\r",
-							"}\r",
-							"\r",
-							"\r",
-							"const randomNumber = generateRandom10Digit();\r",
-							"pm.variables.set('random10Digit', randomNumber);"
+							"const { generateRandom10Digit } = require('./utils.js');",
+							"const randomNumber = generateRandom10Digit();",
+							"pm.globals.set('random10Digit', randomNumber);"
 						],
 						"type": "text/javascript",
 						"packages": {},
@@ -30,8 +24,7 @@
 							"const BASE_URL = pm.globals.get(\"AutomationPayStandRun\");",
 							"const METHOD_UUID = pm.globals.get(\"PaymentMethodUuidSberGate\");",
 							"const AUTH_TOKEN = pm.globals.get(\"PaymentTestBearerToken\");",
-							"const ACCOUNT_ID = pm.globals.get(\"PayPaymentAccountId\");",
-							"const RANDOM = pm.globals.get(\"random10Digit\");",
+							"const ACCOUNT_ID = pm.globals.get(\"PayPaymentAccountId\");",							
 							"",
 							"// Проверяем обязательные переменные окружения",
 							"if (!BASE_URL) {",
