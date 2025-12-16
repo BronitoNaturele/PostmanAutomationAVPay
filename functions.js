@@ -1,6 +1,7 @@
 console.log(`Скрипты тут`);
 
 const axios = require('axios'); /* Установите через npm install axios*/
+const express = require('express'); /* Установите через npm install express*/
 
 /*Генератор случайного 10ти значного числа(применимо, например, к генерации номера заказа)*/
 function generateRandom10Digit() {
