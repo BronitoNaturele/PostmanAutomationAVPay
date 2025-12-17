@@ -21,7 +21,7 @@
 							"",
 							"import { generateRandom10Digit } from './functions.js'",
 							"const randomNumber = generateRandom10Digit();",
-							"pm.globals.set('random10Digit', randomNumber);"							
+							"pm.globals.set('random10Digit', randomNumber);"						
 						],
 						"type": "text/javascript",
 						"packages": {},
