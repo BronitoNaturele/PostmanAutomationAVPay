@@ -7,18 +7,6 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"const newman = require('newman');",
-							"const myCustomModule = require('./functions.js');",
-							"",	
-							"newman.run({",
-    						"collection: require('./functions.js'),",
-    						"reporters: 'cli'",
-							"}, function (err) {",
-    						"if (err) { throw err; }",
-    						"console.log('Collection run complete!');",
-    						"myCustomModule.generateRandom10Digit(); // Use custom function after run",
-							"});",
-							"",
 							"import { generateRandom10Digit } from './functions.js'",
 							"const randomNumber = generateRandom10Digit();",
 							"pm.globals.set('random10Digit', randomNumber);"						
