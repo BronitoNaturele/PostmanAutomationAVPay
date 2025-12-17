@@ -7,7 +7,7 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"const { generateRandom10Digit } = require('./functions.js');",
+							"import { generateRandom10Digit } from './functions.js'",
 							"const randomNumber = generateRandom10Digit();",
 							"pm.globals.set('random10Digit', randomNumber);"							
 						],
